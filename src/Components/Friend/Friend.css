@@ -1,0 +1,11 @@
+.friend-container{
+    display: flex;
+}
+.friends-list{
+    width: 70%;
+    margin-left: 20px;
+    border-right: 1px solid lightgray;
+}
+.friend-cart{ 
+    margin-left: 5px;
+}

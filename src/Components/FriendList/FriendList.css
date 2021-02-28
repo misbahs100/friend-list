@@ -1,0 +1,24 @@
+.friend-list{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    transition: transform 0.5s;
+    
+}
+.friend-list:hover{
+    background-color: lightgray;
+    transform: translate(-15px);
+}
+.friend-list img{
+    margin-right: 25px;
+    width: 200px;
+    height: 210px;
+}
+.friend-button{
+    cursor: pointer;
+    height: 30px;
+    background-color: rgb(238, 144, 144);
+    border: 1px solid rgb(206, 44, 44);
+    border-radius: 5px;
+}
