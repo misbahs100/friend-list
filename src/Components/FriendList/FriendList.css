@@ -17,8 +17,8 @@
 }
 .friend-button{
     cursor: pointer;
-    height: 30px;
-    background-color: rgb(238, 144, 144);
-    border: 1px solid rgb(206, 44, 44);
+    /* height: 30px; */
+    /* background-color: rgb(238, 144, 144); */
+    /* border: 1px solid rgb(206, 44, 44); */
     border-radius: 5px;
 }

@@ -18,16 +18,16 @@ const Friend = () => {
 
     return (
         <div className="friend-container">
-            <div className="friends-list">
+            <div className="friends-list d-flex">
                 {
                     friends.map(friend => <FriendList friend={friend} handleButton={handleButton} key={friend.id}></FriendList>)
                 }
             </div>
-            <div className="friend-cart">
+            <div className="friend-cart text-end">
                 <FriendCart cart={cart}></FriendCart>
             </div>
         </div>
     );
 };
-
+ 
 export default Friend;

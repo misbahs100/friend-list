@@ -1,11 +1,13 @@
+
 .header h1{
     text-align: center;
     letter-spacing: 15px;
   }
   .header nav{
     background-color: lightgray;
-    height: 25px;
+    height: 35px;
     padding: 5px;
+    margin-top: 15px;
   }
   .header a{
     color: rgb(41, 36, 36);
@@ -18,5 +20,6 @@
   .header a:hover{
     background-color: black;
     color:white;
+    text-decoration: none;
   }
   

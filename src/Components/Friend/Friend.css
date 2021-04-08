@@ -1,11 +1,15 @@
 .friend-container{
     display: flex;
+    
 }
 .friends-list{
-    width: 70%;
+    /* width: 70%; */
+    display: grid;
     margin-left: 20px;
     border-right: 1px solid lightgray;
+    grid-template-columns: repeat(3, 1fr);
 }
 .friend-cart{ 
+    /* width: 20%; */
     margin-left: 5px;
 }
